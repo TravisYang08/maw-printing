@@ -28,7 +28,7 @@ export function Header() {
             alt="M.A.W Printing"
             width={120}
             height={40}
-            className="h-10 w-auto"
+            style={{ height: "40px", width: "auto" }}
             priority
           />
         </Link>

@@ -1,7 +1,10 @@
 import { Hero } from "@/components/home/hero";
 import { Features } from "@/components/home/features";
+import { MaterialsShowcase } from "@/components/home/materials-showcase";
+import { CatalogGallery } from "@/components/home/catalog-gallery";
 import { PricingSection } from "@/components/home/pricing-section";
-import { BeyondBasics } from "@/components/home/beyond-basics";
+import { AboutSection } from "@/components/home/about-section";
+import { ContactSection } from "@/components/home/contact-section";
 import { CtaBanner } from "@/components/home/cta-banner";
 
 export default function HomePage() {
@@ -9,8 +12,11 @@ export default function HomePage() {
     <>
       <Hero />
       <Features />
+      <MaterialsShowcase />
+      <CatalogGallery />
       <PricingSection />
-      <BeyondBasics />
+      <AboutSection />
+      <ContactSection />
       <CtaBanner />
     </>
   );
