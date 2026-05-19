@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
-import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
-import { extractRouterConfig } from "uploadthing/server";
-import { ourFileRouter } from "@/app/api/uploadthing/core";
 import { BRAND } from "@/data/brand";
 import "./globals.css";
 
@@ -27,7 +24,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geist.variable} h-full`}>
       <body className="min-h-full flex flex-col antialiased">
-        <NextSSRPlugin routerConfig={extractRouterConfig(ourFileRouter)} />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
