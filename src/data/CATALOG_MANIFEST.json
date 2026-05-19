@@ -1,0 +1,84 @@
+{
+  "version": "1.0.0",
+  "extractedFrom": "https://drive.google.com/file/d/17UbNxg5vjZpRQ0kR2zAHVmf7rnbJR1tt/view",
+  "catalogTitle": "M.A.W CATALOG - MM",
+  "extractedAt": "2026-05-19",
+  "currency": "Ks (Myanmar Kyat)",
+  "productCount": 26,
+  "customizableProductCount": 18,
+  "contactOnlyProductCount": 8,
+  "totalColorVariants": 247,
+  "printingMethods": ["dtg", "dtf"],
+  "printLayoutCount": 16,
+  "printSizeCount": 8,
+  "databaseStructure": {
+    "schema": "src/data/schema.ts",
+    "brand": "src/data/brand.ts",
+    "printing": "src/data/printing.ts",
+    "repository": "src/data/repository.ts",
+    "products": [
+      "src/data/products/semi-combed-32.ts",
+      "src/data/products/combed-cotton-lines.ts",
+      "src/data/products/premium-lines.ts",
+      "src/data/products/contact-catalog.ts",
+      "src/data/products/index.ts"
+    ]
+  },
+  "garmentCategories": [
+    "tshirt",
+    "oversized-tee",
+    "hoodie",
+    "polo",
+    "baby-tee",
+    "sweatshirt",
+    "pullover",
+    "jacket",
+    "shorts",
+    "pants",
+    "tote-bag"
+  ],
+  "productLines": [
+    { "id": "semi-combed-32-standard", "fabric": "Semi-Combed Cotton No.32", "fit": "standard", "page": 8, "colors": 44 },
+    { "id": "semi-combed-32-oversized", "fabric": "Semi-Combed Cotton No.32", "fit": "oversized", "page": 8, "colors": 44 },
+    { "id": "super-soft-20-oversized", "fabric": "Super Soft Cotton No.20, 30", "fit": "oversized", "page": 9, "colors": 33 },
+    { "id": "combed-40-oversized", "fabric": "Combed Cotton No.40", "fit": "oversized", "page": 10, "colors": 12 },
+    { "id": "combed-20-standard", "fabric": "Combed Cotton No.20", "fit": "standard", "page": 11, "colors": 32 },
+    { "id": "combed-20-oversized", "fabric": "Combed Cotton No.20", "fit": "oversized", "page": 11, "colors": 3 },
+    { "id": "combed-20-vintage-washed", "fabric": "Combed Cotton No.20", "collection": "Vintage Washed", "page": 12, "colors": 2 },
+    { "id": "combed-20-acid-washed", "fabric": "Combed Cotton No.20", "collection": "Acid Washed", "page": 13, "colors": 1 },
+    { "id": "combed-20-special-washed-acid-galaxy", "fabric": "Combed Cotton No.20", "collection": "Special Washed", "page": 14, "colors": 1, "minOrderQty": 30 },
+    { "id": "combed-20-special-washed-acid-dot", "fabric": "Combed Cotton No.20", "collection": "Special Washed", "page": 14, "colors": 1, "minOrderQty": 30 },
+    { "id": "combed-20-special-washed-vintage-gradient", "fabric": "Combed Cotton No.20", "collection": "Special Washed", "page": 14, "colors": 1, "minOrderQty": 30 },
+    { "id": "mx-combed-20-bleached", "fabric": "MX Combed Cotton No.20", "collection": "Bleached", "page": 15, "colors": 8 },
+    { "id": "aws-boxy-9101", "fabric": "AWS Boxy #9101", "fit": "boxy", "page": 16, "colors": 6 },
+    { "id": "cotton-interlock-oversized", "fabric": "Cotton No.40 Interlock", "page": 17, "colors": 2 },
+    { "id": "cotton-interlock-baby-tee", "fabric": "Cotton No.40 Interlock", "page": 17, "colors": 2 },
+    { "id": "combed-24-standard", "fabric": "Combed Cotton No.24", "page": 18, "colors": 3 },
+    { "id": "baby-tee-superslim", "fabric": "Baby Tee Superslim", "page": 19, "colors": 7 },
+    { "id": "standard-super-heavy", "fabric": "Standard Super Heavy", "page": 20, "colors": 4 }
+  ],
+  "contactOnlyProducts": [
+    "hoodie-blank",
+    "polo-shirt",
+    "pullover",
+    "jacket-workwear",
+    "sweatshirt-stripes",
+    "shorts-denim",
+    "pants-sweat",
+    "tote-bag"
+  ],
+  "missingFields": [
+    "Exact hex color codes (inferred from color names in color-utils.ts)",
+    "Product photos / image URLs",
+    "Hoodie, Polo, Pullover, Jacket, Shorts, Pants, Tote — garment unit pricing not in PDF",
+    "DTG A1 print — contact for pricing (dimensions 21×28 in visual only)",
+    "Garment-level bulk pricing tiers (PDF says message for bulk garment orders)",
+    "Some shoulder/sleeve measurements missing on simpler size tables",
+    "Page 7 — marketing slide only, no product data"
+  ],
+  "notes": [
+    "Print prices are per-piece and exclude garment cost",
+    "DTG pricing split: white shirt vs black & color shirt",
+    "DTF uses single price column for all garment colors"
+  ]
+}
